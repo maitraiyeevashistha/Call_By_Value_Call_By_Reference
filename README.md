@@ -96,5 +96,12 @@ void swap(int *x, int *y){
 
 *Problem Statement: Create a function which uses pointers to reverse an input string*
 #### Program Description :
- - Create a function 
+ - Create the string reversal function
+     - Create a pointer pointing to the first element
+     - create a pointer pointing to the last element
+     - while ( start_pointer < end_pointer)
+         - temp = *start;
+         - *start = *end;
+         - *end = temp;
+         - Move the pointers by one
    
