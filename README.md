@@ -104,4 +104,13 @@ void swap(int *x, int *y){
          - *start = *end;
          - *end = temp;
          - Move the pointers by one
-   
+  ## Conclusion 
+  In summary, this experiment investigated various C++ function calls and the effective use of pointers for data manipulation.  We looked at how call by value, call by reference, and call by pointer differ from one another and impact the original data.  We emphasized the value of code reuse, memory management, and pointer manipulation through useful programs like value swapping, condition-based salary increments, and string reversals using pointers.
+
+ We discovered that:
+
+  - Changes made inside the function do not impact the original variable because call by value makes a copy of it.
+
+  - Functions can alter the original variables directly by using call by reference and call by pointer.
+
+  - Programs can work with memory addresses more effectively and flexibly thanks to pointers.
